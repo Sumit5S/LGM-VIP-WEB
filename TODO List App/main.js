@@ -1,35 +1,3 @@
-
-    // todos = JSON.parse(localStorage.getItem('todos')) || [];
-    // const nameInput =document.querySelector("#name");
-    // const newTODOForm = document.querySelector("#new-task-form");
-
-    // const username = localStorage.getItem('username') || '';
-    
-    // nameInput.value = username;
-
-    // nameInput.addEventListener('change', e =>{
-    //     localStorage.setItem('username',e.target.value);
-    // });
-
-    // newTODOForm.addEventListener('submit', e =>{
-    //     e.preventDefault();
-
-    //     const todo ={
-    //         content: e.target.elements.new-task-input.value,
-    //         category: e.target.elements.category.value,
-    //         done: false,
-    //         createdAt: new Date().getTime()
-    //     }
-
-    //     todos.push(todo);
-
-    //     localStorage.setItem('todos', JSON.stringify(todos));
-
-    //     e.target.reset();
-    // })
-
-
-
 window.addEventListener('load', () => {
     const form = document.querySelector("#new-task-form");
     const input = document.querySelector("#new-task-input");
